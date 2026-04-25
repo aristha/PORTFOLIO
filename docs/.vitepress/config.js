@@ -7,6 +7,7 @@ export default defineConfig({
   title: 'Enterprise Engineering',
   description: 'Architecture Decision Records, System Migration Case Studies, and Technical Leadership',
   base,
+  cleanUrls: true,
 
   head: [
     ['meta', { name: 'author', content: 'Technical Architect & Tech Lead' }],
