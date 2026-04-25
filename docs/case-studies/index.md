@@ -8,7 +8,7 @@ Each case study follows a consistent structure: business context, existing syste
 
 ## Migration & Cloud
 
-### [Legacy Java System Migration to AWS Cloud](./case-studies/legacy-java-aws-migration)
+### [Legacy Java System Migration to AWS Cloud](./legacy-java-aws-migration)
 
 **Domain:** Cloud Migration · Re-platforming · Database Migration  
 **Stack:** Java EE 6 / JBoss AS 7.1 · Oracle 11g → AWS ECS Fargate · Aurora PostgreSQL  
@@ -20,7 +20,7 @@ A regional insurance company's Java EE 6 monolith on aging on-premise hardware. 
 
 ---
 
-### [Enterprise Architecture Redesign — Monolith to Modular](./case-studies/enterprise-architecture-redesign)
+### [Enterprise Architecture Redesign — Monolith to Modular](./enterprise-architecture-redesign)
 
 **Domain:** Architecture Redesign · Domain-Driven Design · Modular Decomposition  
 **Stack:** Spring MVC monolith · PostgreSQL → Modular Spring Boot · Event-driven integration  
@@ -34,7 +34,7 @@ A B2B SaaS company's five-year-old Java Spring MVC monolith had grown to a size 
 
 ## Performance Engineering
 
-### [SQL Performance Optimization — Oracle & PostgreSQL](./case-studies/sql-performance-optimization)
+### [SQL Performance Optimization — Oracle & PostgreSQL](./sql-performance-optimization)
 
 **Domain:** Database Performance · Query Optimization · Index Strategy  
 **Stack:** Oracle 12c · PostgreSQL 13  
@@ -48,7 +48,7 @@ A financial services firm's quarterly regulatory reporting system was generating
 
 ## Integration & Architecture
 
-### [Multi-Technology System Integration](./case-studies/multi-technology-integration)
+### [Multi-Technology System Integration](./multi-technology-integration)
 
 **Domain:** System Integration · API Design · Authentication Unification  
 **Stack:** React · Vue.js · Java Spring Boot · Python FastAPI · AWS API Gateway  
@@ -60,7 +60,7 @@ A retail enterprise had separate development teams deliver a React customer port
 
 ---
 
-### [Technical Bidding & Solution Proposal](./case-studies/technical-bidding)
+### [Technical Bidding & Solution Proposal](./technical-bidding)
 
 **Domain:** Solution Architecture · RFP Response · Build vs Buy Evaluation  
 **Stack:** Java microservices · Mendix · Python FastAPI · React  

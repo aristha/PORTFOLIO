@@ -78,4 +78,4 @@ Five documented case studies covering the primary engineering domains:
 | [Enterprise Architecture Redesign](./case-studies/enterprise-architecture-redesign) | Architecture | Spring MVC monolith → Modular |
 | [Technical Bidding & Solution Proposal](./case-studies/technical-bidding) | Solution Architecture | Java, Mendix, Python, React |
 
-[View all case studies →](./case-studies)
+[View all case studies →](/case-studies/)

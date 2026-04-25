@@ -69,7 +69,7 @@ Technical advisory across heterogeneous project portfolios — providing archite
 
 ## Architectural Approach
 
-The engineering philosophy driving this work is documented in [Engineering Philosophy](./philosophy).
+The engineering philosophy driving this work is documented in [Engineering Philosophy](/philosophy/).
 
 In brief:
 
@@ -85,4 +85,4 @@ In brief:
 
 The case studies in this system document the above in practice — with real system contexts, real constraint sets, and real architectural decisions. Each case study follows a consistent structure: business context, existing system analysis, solution evaluation, final decision, architecture design, migration strategy, and production outcome.
 
-[View Case Studies →](./case-studies)
+[View Case Studies →](/case-studies/)
