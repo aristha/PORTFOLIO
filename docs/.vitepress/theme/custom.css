@@ -1,0 +1,196 @@
+/* ============================================================
+   Enterprise Engineering — Documentation Theme
+   Clean, structured, decision-driven documentation style
+   ============================================================ */
+
+/* Brand colors — professional blue-gray palette */
+:root {
+  --vp-c-brand-1: #1e40af;
+  --vp-c-brand-2: #1d4ed8;
+  --vp-c-brand-3: #2563eb;
+  --vp-c-brand-soft: rgba(30, 64, 175, 0.08);
+}
+
+.dark {
+  --vp-c-brand-1: #60a5fa;
+  --vp-c-brand-2: #93c5fd;
+  --vp-c-brand-3: #bfdbfe;
+  --vp-c-brand-soft: rgba(96, 165, 250, 0.08);
+}
+
+/* ── Typography ─────────────────────────────────────────── */
+
+.vp-doc h1 {
+  font-size: 1.85rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  border-bottom: 2px solid var(--vp-c-brand-1);
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
+
+.vp-doc h2 {
+  font-size: 1.3rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 28px;
+  margin-top: 44px;
+}
+
+.vp-doc h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  margin-top: 28px;
+}
+
+/* ── Section separators ─────────────────────────────────── */
+
+.vp-doc hr {
+  border: none;
+  border-top: 1px solid var(--vp-c-divider);
+  margin: 36px 0;
+}
+
+/* ── Tables ─────────────────────────────────────────────── */
+
+.vp-doc table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 20px 0;
+}
+
+.vp-doc thead tr {
+  background-color: var(--vp-c-bg-soft);
+  border-bottom: 2px solid var(--vp-c-divider);
+}
+
+.vp-doc th {
+  font-weight: 650;
+  text-align: left;
+  padding: 10px 14px;
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc td {
+  padding: 9px 14px;
+  border-bottom: 1px solid var(--vp-c-divider);
+  vertical-align: top;
+}
+
+.vp-doc tr:last-child td {
+  border-bottom: none;
+}
+
+/* ── Blockquote — decision / callout boxes ──────────────── */
+
+.vp-doc blockquote {
+  border-left: 3px solid var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  padding: 14px 18px;
+  margin: 20px 0;
+  border-radius: 0 6px 6px 0;
+}
+
+.vp-doc blockquote p {
+  margin: 0;
+  color: var(--vp-c-text-1);
+}
+
+/* ── Code blocks ─────────────────────────────────────────── */
+
+.vp-doc div[class*='language-'] {
+  margin: 18px 0;
+  border-radius: 8px;
+}
+
+/* Inline code */
+.vp-doc :not(pre) > code {
+  font-size: 0.84em;
+  background: var(--vp-c-bg-soft);
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid var(--vp-c-divider);
+}
+
+/* ── Metadata badges (frontmatter info lines) ────────────── */
+
+.case-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 28px 0;
+  padding: 14px 18px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+}
+
+/* ── Home page hero overrides ────────────────────────────── */
+
+.VPHero .name {
+  font-size: 2.6rem !important;
+}
+
+.VPHero .text {
+  font-size: 1.4rem !important;
+}
+
+.VPHero .tagline {
+  font-size: 1rem !important;
+  opacity: 0.75;
+}
+
+/* ── Feature cards ───────────────────────────────────────── */
+
+.VPFeature {
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 8px !important;
+}
+
+.VPFeature .title {
+  font-size: 0.95rem !important;
+  font-weight: 650 !important;
+}
+
+/* ── Sidebar ─────────────────────────────────────────────── */
+
+.VPSidebarItem.level-0 > .item > .text {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--vp-c-text-3);
+}
+
+/* ── Outline (right nav) ─────────────────────────────────── */
+
+.VPDocOutlineItem.level-3 .outline-link {
+  font-size: 0.8rem;
+  padding-left: 20px;
+}
+
+/* ── Content width ───────────────────────────────────────── */
+
+.VPDoc:not(.has-sidebar) .content {
+  max-width: 880px;
+}
+
+/* ── Print styles ────────────────────────────────────────── */
+
+@media print {
+  .VPNav,
+  .VPSidebar,
+  .VPDocFooter,
+  .VPFooter {
+    display: none !important;
+  }
+
+  .vp-doc h2 {
+    page-break-before: always;
+  }
+}

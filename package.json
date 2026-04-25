@@ -1,0 +1,17 @@
+{
+  "name": "enterprise-engineering-adr",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Enterprise Engineering Case Study & Architecture Decision Record System",
+  "scripts": {
+    "dev": "vitepress serve docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
