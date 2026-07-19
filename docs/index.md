@@ -2,67 +2,63 @@
 layout: home
 
 hero:
-  name: "Enterprise Engineering"
-  text: "Case Studies & Architecture Decisions"
-  tagline: "Technical Architect · Java Systems · AWS Cloud · SQL Performance · Enterprise Migration"
+  name: "Ha Van Tam"
+  text: "Tech Lead · Solution Architect"
+  tagline: "Tech Lead · 8 Years · Full-Stack Java & ReactJS/Angular · FPT Software Platinum 2021 · FStar 2025"
   actions:
     - theme: brand
       text: View Case Studies →
       link: /case-studies
     - theme: alt
-      text: Engineering Philosophy
-      link: /philosophy
+      text: About & Contact
+      link: /about
 
 features:
-  - title: System Migration
-    details: Legacy Java EE systems to modern AWS cloud infrastructure. Lift-and-shift, re-platforming, and full re-architecture strategies with phased rollout planning.
-  - title: SQL Performance Engineering
-    details: Oracle and PostgreSQL query optimization. Execution plan analysis, composite index strategy, partition pruning, materialized views, and bottleneck resolution.
-  - title: Architecture Redesign
-    details: Monolith to modular decomposition using domain-driven design. Bounded context identification, event-driven integration, and incremental migration.
-  - title: Cross-Stack Integration
-    details: Heterogeneous system integration across Java, React, Vue, Python, and Mendix. API gateway patterns, OAuth 2.0, and unified contract design.
-  - title: Technical Leadership
-    details: Architecture decision making, option evaluation, RFP response and solution proposal. Multi-team technical coordination and cross-project guidance.
-  - title: Cloud Architecture
-    details: AWS service selection and VPC design. ECS/Fargate deployment, RDS/Aurora strategy, ElastiCache, CloudFront, and infrastructure-as-code.
+  - icon: ☕
+    title: Java Backend Engineering
+    details: Spring Boot, Spring MVC, Spring Framework, JBoss. 6+ years production Java across financial systems for Japanese and Korean enterprise clients. Expert-level.
+  - icon: 🖥️
+    title: Frontend — ReactJS & Angular
+    details: ReactJS (5y) and Angular (4y6m) as genuine production stacks, not secondary skills. TypeScript across both. SPA architecture and API contract design with Java backends.
+  - icon: 🗄️
+    title: Database Engineering
+    details: PostgreSQL (Expert, 6y+) and Oracle PL/SQL (3y). Query optimization, index design, execution plan analysis. Reduced a 3M-record query from 30 min → 5 min.
+  - icon: 🔄
+    title: System Migration
+    details: Spring Framework version migration, security platform consolidation, Flex/JSP → Angular SPA. Phased cutover and parallel-run in live financial systems.
+  - icon: 🏗️
+    title: Technical Leadership
+    details: Project Lead on teams of 65–118 engineers. Sprint planning, full code review, technical decisions, client communication (Japanese & Korean clients). 80% on-schedule delivery.
+  - icon: ⚡
+    title: Low-Code Enterprise
+    details: Certified Mendix Advanced Developer, Rapid Developer, and Pega Certified System Architect. Production delivery and build-vs-buy evaluation in enterprise contexts.
+  - icon: 🚀
+    title: DevOps & Infrastructure
+    details: Docker, Kubernetes, GitHub Actions CI/CD pipeline. Automated build → Docker image → deploy to AWS EC2. End-to-end pipeline from code push to production.
 ---
 
-## About This System
+## Who I Am
 
-This site is an **Architecture Decision Record (ADR) and Case Study system** — not a personal CV.
+**Ha Van Tam** — Tech Lead and Project Lead at FPT Software with 8 years of enterprise delivery experience.
 
-It documents engineering decisions made in real enterprise environments: the system context, the options evaluated, the reasoning behind each decision, and the trade-offs accepted.
+I design and build full-stack systems for **Japanese financial institutions** (securities trading, life insurance, asset management) and **Korean enterprise IT** (LG CNS). Primary stack: Java backend (Expert) + ReactJS & Angular (Advanced) + PostgreSQL (Expert).
 
-The goal is to provide a **decision reasoning trail** for complex system problems, similar in structure to Stripe's engineering blog posts or Google's system design documentation.
+Project Lead on teams of 65–118 engineers. **80% of projects delivered on schedule.**
 
----
-
-## Engineering Domain
-
-| Domain | Description |
-|--------|-------------|
-| **Java Backend Systems** | Spring Boot, Spring MVC, Spring Batch, Java EE. Primary implementation stack for enterprise backend. |
-| **AWS Cloud Architecture** | EC2, ECS/Fargate, RDS/Aurora, ElastiCache, S3, CloudFront, API Gateway, IAM. Migration and greenfield architecture. |
-| **Database Performance** | PostgreSQL and Oracle. Query optimization, index strategy, partitioning, AWR analysis, EXPLAIN plans. |
-| **System Migration** | Legacy-to-cloud migration. Strangler fig, lift-and-shift, re-platform, re-architecture. Phased rollout. |
-| **Frontend Integration** | ReactJS, Vue.js. Backend-for-Frontend pattern, API contract design, multi-stack integration. |
-| **Low-Code Enterprise** | Mendix. Integration with custom Java systems, workflow automation, solution evaluation vs custom build. |
-| **Technical Leadership** | Architecture reviews, solution proposals, RFP responses, technical risk assessment, team coordination. |
+📎 [github.com/aristha](https://github.com/aristha) · ✉️ [bttsnam@gmail.com](mailto:bttsnam@gmail.com)
 
 ---
 
-## Core Capability Statement
+## Key Results
 
-> Designing and leading enterprise-grade system transformations across heterogeneous technologies — with a structured, option-driven approach to architecture decision making.
-
-Primary focus areas:
-
-- **Migration strategy design** — from legacy on-premise to cloud-native architectures
-- **Performance engineering** — SQL tuning, caching strategy, and system bottleneck resolution
-- **Architecture evaluation** — structured option analysis before any major technical decision
-- **Cross-technology integration** — connecting heterogeneous enterprise systems without full rewrites
-- **Technical leadership** — guiding teams through complex, multi-phase technical transformations
+| Result | Context |
+|--------|---------|
+| **30 min → 5 min** | SQL query over 3 million records, 5-table join — index redesign + query rewrite |
+| **80% on-schedule** | Project delivery rate across all engagements at FPT Software |
+| **65–118 person teams** | Project Lead: sprint planning, code review gate, technical decisions, client comms |
+| **"Investigate & decide"** | Assigned as technical research lead across projects — analyse complex problems, evaluate options, propose pragmatic solution |
+| **5 client domains** | Securities · Insurance · Asset Management · Enterprise IT · B2B Commerce |
+| **7 certifications** | AWS Cloud Architect · Mendix Advanced Developer · Pega CSA · Full Stack Web Developer |
 
 ---
 
@@ -78,4 +74,4 @@ Five documented case studies covering the primary engineering domains:
 | [Enterprise Architecture Redesign](./case-studies/enterprise-architecture-redesign) | Architecture | Spring MVC monolith → Modular |
 | [Technical Bidding & Solution Proposal](./case-studies/technical-bidding) | Solution Architecture | Java, Mendix, Python, React |
 
-[View all case studies →](./case-studies)
+[View all case studies →](/case-studies/)

@@ -134,4 +134,4 @@ Each risk must have an **owner**, a **probability**, an **impact rating**, and a
 
 The above principles are not a methodology or a certification. They are the output of engineering decisions made in real systems, under real constraints, with real consequences. The case studies in this system document where these principles were applied, where trade-offs were accepted, and what the outcome was.
 
-[View Case Studies →](./case-studies)
+[View Case Studies →](/case-studies/)

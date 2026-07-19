@@ -7,13 +7,14 @@ export default defineConfig({
   title: 'Enterprise Engineering',
   description: 'Architecture Decision Records, System Migration Case Studies, and Technical Leadership',
   base,
+  cleanUrls: true,
 
   head: [
-    ['meta', { name: 'author', content: 'Technical Architect & Tech Lead' }],
-    ['meta', { name: 'keywords', content: 'Java, AWS, PostgreSQL, Oracle, Spring Boot, Architecture, Migration, Performance, Enterprise' }],
+    ['meta', { name: 'author', content: 'Ha Van Tam' }],
+    ['meta', { name: 'keywords', content: 'Ha Van Tam, Tech Lead, Java, AWS, PostgreSQL, Oracle, Spring Boot, Architecture, Migration, Performance, Enterprise, FPT Software' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'Enterprise Engineering — ADR & Case Studies' }],
-    ['meta', { property: 'og:description', content: 'Architecture Decision Records and Case Studies from enterprise-scale system design, migration, and performance engineering.' }],
+    ['meta', { property: 'og:title', content: 'Ha Van Tam — Tech Lead & Solution Architect' }],
+    ['meta', { property: 'og:description', content: 'Architecture Decision Records and Case Studies by Ha Van Tam — 7 years of enterprise-scale system design, cloud migration, and performance engineering.' }],
   ],
 
   themeConfig: {
@@ -27,7 +28,8 @@ export default defineConfig({
         activeMatch: '/case-studies'
       },
       { text: 'Philosophy', link: '/philosophy' },
-      { text: 'About', link: '/about' }
+      { text: 'About', link: '/about' },
+      { text: '📄 CV', link: '/cv' }
     ],
 
     sidebar: {
@@ -88,8 +90,12 @@ export default defineConfig({
       label: 'On this page'
     },
 
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/aristha' }
+    ],
+
     footer: {
-      message: 'Enterprise Engineering — Architecture Decision Records & Case Studies'
+      message: 'Ha Van Tam · Tech Lead & Solution Architect · <a href="mailto:bttsnam@gmail.com">bttsnam@gmail.com</a>'
     },
 
     docFooter: {
