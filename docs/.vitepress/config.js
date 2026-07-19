@@ -9,12 +9,17 @@ export default defineConfig({
   base,
   cleanUrls: true,
 
+  appearance: 'force-dark',
+
   head: [
     ['meta', { name: 'author', content: 'Ha Van Tam' }],
     ['meta', { name: 'keywords', content: 'Ha Van Tam, Tech Lead, Java, AWS, PostgreSQL, Oracle, Spring Boot, Architecture, Migration, Performance, Enterprise, FPT Software' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'Ha Van Tam — Tech Lead & Solution Architect' }],
-    ['meta', { property: 'og:description', content: 'Architecture Decision Records and Case Studies by Ha Van Tam — 7 years of enterprise-scale system design, cloud migration, and performance engineering.' }],
+    ['meta', { property: 'og:description', content: 'Architecture Decision Records and Case Studies by Ha Van Tam — 8 years of enterprise-scale system design, cloud migration, and performance engineering.' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap', rel: 'stylesheet' }],
   ],
 
   themeConfig: {

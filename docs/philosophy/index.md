@@ -1,10 +1,14 @@
 # Engineering Philosophy
 
-**Technical leadership principles applied across enterprise-scale system design, migration, and cross-technology decision making.**
+Technical leadership principles applied across enterprise-scale system design, migration, and cross-technology decision making.
 
 ---
 
-## I. Evaluate Multiple Architectures Before Any Decision
+<div class="phil-cluster">
+
+## Cluster A — Architecture Decision-Making
+
+### I. Evaluate Multiple Architectures Before Any Decision
 
 No architecture decision should be made without a structured evaluation of at least three options. The minimum viable analysis covers:
 
@@ -16,9 +20,7 @@ The value of this process is not to guarantee selection of Option 3. In many ent
 
 > Architecture decisions without documented alternative analysis are just implementations with unknown assumptions baked in.
 
----
-
-## II. Prefer Incremental Migration Over Risky Full Rewrite
+### II. Prefer Incremental Migration Over Risky Full Rewrite
 
 The full rewrite is almost always the wrong decision for production enterprise systems.
 
@@ -38,9 +40,13 @@ The full rewrite is almost always the wrong decision for production enterprise s
 
 The goal is a migration path that could be **stopped at any phase** and leave the system in a stable, improved state — not a high-stakes binary flip.
 
----
+</div>
 
-## III. Optimize for Long-Term System Sustainability
+<div class="phil-cluster">
+
+## Cluster B — Sustainability &amp; Performance
+
+### III. Optimize for Long-Term System Sustainability
 
 Technical decisions have compounding effects. A choice that reduces complexity today may introduce constraints that block evolution in 18 months.
 
@@ -56,9 +62,7 @@ Key sustainability criteria evaluated for every significant decision:
 
 Short-term engineering velocity is not a sufficient justification for introducing technical debt that reduces future evolvability.
 
----
-
-## IV. Balance Business Constraints Against Technical Purity
+### IV. Balance Business Constraints Against Technical Purity
 
 Enterprise engineering exists inside business systems. Ignoring cost, time-to-market, organizational risk tolerance, and team capability leads to proposals that never get approved, projects that run over budget, and architectures that cannot be maintained.
 
@@ -73,9 +77,7 @@ Applied principles:
 
 > The best architecture for a system is the simplest one that satisfies the real requirements — current and near-future — at the actual team's capability level.
 
----
-
-## V. Performance Engineering Is a First-Class Concern
+### V. Performance Engineering Is a First-Class Concern
 
 Performance is not a secondary optimization pass. It is a design constraint that must be addressed at the schema level, the query level, the service boundary level, and the infrastructure level.
 
@@ -94,9 +96,13 @@ Performance regressions are introduced most frequently at:
 
 Performance problems at scale are always cheaper to prevent through design than to fix through emergency patching.
 
----
+</div>
 
-## VI. Cross-Technology Adaptability Is a Strategic Advantage
+<div class="phil-cluster">
+
+## Cluster C — Multi-Technology &amp; Risk
+
+### VI. Cross-Technology Adaptability Is a Strategic Advantage
 
 Enterprise environments are heterogeneous by nature. A Java-only perspective on a system with React frontends, Python ML services, and Mendix workflow components is insufficient for real architectural guidance.
 
@@ -109,9 +115,7 @@ Cross-technology competency enables:
 
 Technology selection must be driven by the **fitness of the tool for the specific problem** — not by team familiarity or organizational inertia.
 
----
-
-## VII. Technical Risk Is Enumerable and Must Be Made Explicit
+### VII. Technical Risk Is Enumerable and Must Be Made Explicit
 
 Every architecture decision carries risk. Technical leadership includes making that risk **enumerable, visible, and owned** — not hidden in optimistic estimates.
 
@@ -128,7 +132,7 @@ Risk categories tracked across all migration and redesign projects:
 
 Each risk must have an **owner**, a **probability**, an **impact rating**, and a **mitigation plan** — not a general acknowledgment that risk exists.
 
----
+</div>
 
 ## Summary
 
