@@ -1,6 +1,6 @@
 # Ha Van Tam
 
-**Tech Lead & Solution Architect — Enterprise System Transformation**
+**Technical Lead — Software Architecture & Enterprise System Transformation**
 
 8 years of engineering experience across Financial Services, Securities, Insurance, Asset Management (Japanese clients), and Enterprise IT (Korean clients).
 
@@ -12,7 +12,7 @@
 
 ## Role
 
-I work as a **Tech Lead and Project Lead** in enterprise software delivery environments. Primary focus: full-stack system delivery and technical leadership on large-scale projects for Japanese financial institutions and Korean enterprise IT.
+I work as a **Technical Lead and Project Lead** in enterprise software delivery environments. Primary focus: full-stack system delivery and technical leadership on large-scale projects for Japanese financial institutions and Korean enterprise IT.
 
 **Core differentiator: genuine full-stack capability.** Java backend (Expert, 6y+) and Angular/ReactJS frontend (Advanced, 4y6m+) are both production delivery stacks — not one primary and one secondary. This enables end-to-end ownership across the full system rather than handoff-dependent delivery.
 
