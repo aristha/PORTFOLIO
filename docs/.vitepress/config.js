@@ -1,11 +1,10 @@
 import { defineConfig } from 'vitepress'
 
-// Set base URL for GitHub Pages: change '/PORTFOLIO/' to match your repo name
 const base = process.env.GITHUB_ACTIONS ? '/PORTFOLIO/' : '/'
 
 export default defineConfig({
-  title: 'Enterprise Engineering',
-  description: 'Architecture Decision Records, System Migration Case Studies, and Technical Leadership',
+  title: 'Ha Van Tam — Engineering Portfolio',
+  description: 'Technical leadership, AI-assisted engineering governance, software architecture, modernization, and enterprise delivery case studies.',
   base,
   cleanUrls: true,
 
@@ -13,17 +12,17 @@ export default defineConfig({
 
   head: [
     ['meta', { name: 'author', content: 'Ha Van Tam' }],
-    ['meta', { name: 'keywords', content: 'Ha Van Tam, Tech Lead, Java, AWS, PostgreSQL, Oracle, Spring Boot, Architecture, Migration, Performance, Enterprise, FPT Software' }],
+    ['meta', { name: 'keywords', content: 'Technical Lead, Solution Architect, AI-assisted engineering, AI governance, Java, Spring Boot, AWS, Kubernetes, PostgreSQL, Architecture, Legacy Modernization, Engineering Leadership' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'Ha Van Tam — Tech Lead & Solution Architect' }],
-    ['meta', { property: 'og:description', content: 'Architecture Decision Records and Case Studies by Ha Van Tam — 8 years of enterprise-scale system design, cloud migration, and performance engineering.' }],
+    ['meta', { property: 'og:title', content: 'Ha Van Tam — Technical Lead & Solution Architect' }],
+    ['meta', { property: 'og:description', content: 'Engineering portfolio covering AI-assisted delivery governance, enterprise architecture, modernization, performance engineering, and technical leadership.' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap', rel: 'stylesheet' }],
   ],
 
   themeConfig: {
-    siteTitle: 'Enterprise Engineering',
+    siteTitle: 'Engineering Portfolio',
 
     nav: [
       { text: 'Home', link: '/' },
@@ -34,7 +33,7 @@ export default defineConfig({
       },
       { text: 'Philosophy', link: '/philosophy' },
       { text: 'About', link: '/about' },
-      { text: '📄 CV', link: '/cv' }
+      { text: 'CV', link: '/cv' }
     ],
 
     sidebar: {
@@ -43,6 +42,16 @@ export default defineConfig({
           text: 'Overview',
           items: [
             { text: 'All Case Studies', link: '/case-studies' }
+          ]
+        },
+        {
+          text: 'AI-Assisted Engineering',
+          collapsed: false,
+          items: [
+            {
+              text: 'Engineering Governance',
+              link: '/case-studies/ai-assisted-engineering-governance'
+            }
           ]
         },
         {
@@ -100,7 +109,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Ha Van Tam · Tech Lead & Solution Architect · <a href="mailto:bttsnam@gmail.com">bttsnam@gmail.com</a>'
+      message: 'Ha Van Tam · Technical Lead · Solution Architect · AI-assisted Engineering'
     },
 
     docFooter: {
