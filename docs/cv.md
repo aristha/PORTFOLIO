@@ -15,10 +15,6 @@ description: Curriculum Vitae — Ha Van Tam, Technical Lead, Software Architect
     <h1 class="cv-name">Ha Van Tam</h1>
     <p class="cv-title">Technical Lead &nbsp;·&nbsp; Software Architecture &nbsp;·&nbsp; Full-Stack Engineer</p>
     <div class="cv-contacts">
-      <a href="mailto:bttsnam@gmail.com">
-        <svg viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
-        bttsnam@gmail.com
-      </a>
       <a href="https://github.com/aristha" target="_blank">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
         github.com/aristha
@@ -42,7 +38,7 @@ description: Curriculum Vitae — Ha Van Tam, Technical Lead, Software Architect
 
 Tech Lead and Project Lead with **8 years** of enterprise software delivery at FPT Software. Genuine full-stack capability — Java backend (Expert, 6y+) and ReactJS/Angular frontend (Advanced, 4y6m+) — enabling end-to-end system ownership without handoff dependency.
 
-Delivered across **five client domains**: Japanese financial institutions (securities, insurance, asset management), Korean enterprise IT (LG CNS), and Singapore government. Project Lead on teams of **65–118 engineers**. **80% on-schedule delivery rate.**
+Delivered across **five enterprise domains** spanning Japanese financial services, Korean enterprise IT, and public-sector systems. Held Project Lead, Team Lead, and Sub Leader responsibilities within delivery organizations of **52–206 engineers**; direct ownership varied by engagement.
 
 **Key strength: technical investigation and solution judgment.** Able to research and analyse complex technical problems that lack clear answers — evaluating technology options, trade-offs, and constraints — and propose the most appropriate, pragmatic solution for the given context. Repeatedly assigned the "investigate &amp; decide" role by PM/BrSE across projects.
 </div>
@@ -129,7 +125,7 @@ Delivered across **five client domains**: Japanese financial institutions (secur
     <span class="role-date">2022 – Present</span>
   </div>
   <div class="cv-job-desc">
-    Sprint &amp; timeline planning · full code review gate · technical solution authority · client communication (JP/KR) · effort estimation &amp; PM reporting · junior mentoring
+    Sprint &amp; timeline planning · full code review gate · technical solution authority · stakeholder coordination · effort estimation &amp; PM reporting · junior mentoring
   </div>
   <div class="cv-job-role">
     <span class="role-title">Software Engineer / Sub Leader</span>
@@ -145,10 +141,10 @@ Delivered across **five client domains**: Japanese financial institutions (secur
 <div class="cv-project">
   <div class="cv-project-header">
     <span class="proj-name">Security Platform Migration</span>
-    <span class="proj-meta">Project Lead · Team 106 · Java, ReactJS, PostgreSQL</span>
+    <span class="proj-meta">Project Lead · Delivery org 106 · Java, ReactJS, PostgreSQL</span>
   </div>
   <ul>
-    <li>Consolidated multiple legacy security systems into one unified platform (LGCNS)</li>
+    <li>Consolidated multiple legacy security systems into one unified enterprise platform</li>
     <li>Technical solution design, full code review, sprint delivery, query &amp; API performance tuning</li>
   </ul>
 </div>
@@ -156,17 +152,17 @@ Delivered across **five client domains**: Japanese financial institutions (secur
 <div class="cv-project">
   <div class="cv-project-header">
     <span class="proj-name">JS Coverage Tooling</span>
-    <span class="proj-meta">Project Lead · Team 105 · TypeScript, NodeJS, Chrome Extension</span>
+    <span class="proj-meta">Project Lead · Delivery org 105 · TypeScript, NodeJS, Chrome Extension</span>
   </div>
   <ul>
-    <li>Browser-based JS code coverage tool for Chrome/Edge (LGCNS) — end-to-end ownership, architecture to UAT</li>
+    <li>Browser-based JS code coverage tool for Chrome/Edge — end-to-end ownership from architecture to UAT</li>
   </ul>
 </div>
 
 <div class="cv-project">
   <div class="cv-project-header">
     <span class="proj-name">Market Surveillance &amp; Compliance</span>
-    <span class="proj-meta">Project Lead · Team 65 · Java, Oracle</span>
+    <span class="proj-meta">Project Lead · Delivery org 65 · Java, Oracle</span>
   </div>
   <ul>
     <li>Primary technical contact for securities compliance system — multi-year delivery (Japanese financial institution)</li>
@@ -176,7 +172,7 @@ Delivered across **five client domains**: Japanese financial institutions (secur
 <div class="cv-project">
   <div class="cv-project-header">
     <span class="proj-name">Securities Transaction Monitoring</span>
-    <span class="proj-meta">Team Lead · Team 206 · Angular, Spring Boot, AWS CodePipeline</span>
+    <span class="proj-meta">Team Lead · Delivery org 206 · Angular, Spring Boot, AWS CodePipeline</span>
   </div>
   <ul>
     <li>Full development cycle: detail design → coding → integration testing</li>
@@ -187,7 +183,7 @@ Delivered across **five client domains**: Japanese financial institutions (secur
 <div class="cv-project">
   <div class="cv-project-header">
     <span class="proj-name">SQL Performance Optimization — Insurance to AWS</span>
-    <span class="proj-meta">Member · Team 530 · Oracle, PostgreSQL, AWS</span>
+    <span class="proj-meta">Member · Delivery org 530 · Oracle, PostgreSQL, AWS</span>
   </div>
   <ul>
     <li>EXPLAIN PLAN/AWR analysis, composite &amp; partition index redesign, query rewrite, table partitioning, materialized views</li>
@@ -198,17 +194,17 @@ Delivered across **five client domains**: Japanese financial institutions (secur
 <div class="cv-project">
   <div class="cv-project-header">
     <span class="proj-name">Spring Framework Migration</span>
-    <span class="proj-meta">Sub Leader · Team 39 · Java, Spring Boot</span>
+    <span class="proj-meta">Sub Leader · Delivery org 39 · Java, Spring Boot</span>
   </div>
   <ul>
-    <li>Legacy Spring → Spring Boot: XML → Java-based config, dependency upgrade, code refactor, test coverage, UAT (LGCNS)</li>
+    <li>Legacy Spring → Spring Boot: XML → Java-based config, dependency upgrade, code refactor, test coverage, and UAT</li>
   </ul>
 </div>
 
 <div class="cv-project">
   <div class="cv-project-header">
-    <span class="proj-name">Asset Management System (Daiwa Securities)</span>
-    <span class="proj-meta">Member · Team 40–46 · Java, Oracle, Angular</span>
+    <span class="proj-name">Asset Management System</span>
+    <span class="proj-meta">Member · Delivery org 40–46 · Java, Oracle, Angular</span>
   </div>
   <ul>
     <li>Multi-year AMOne system delivery: new features, Oracle optimization, Flex → Angular migration</li>
@@ -218,10 +214,10 @@ Delivered across **five client domains**: Japanese financial institutions (secur
 <div class="cv-project">
   <div class="cv-project-header">
     <span class="proj-name">Singapore Government Education System</span>
-    <span class="proj-meta">Member · Team 144 · Java, Angular, PostgreSQL, SAS</span>
+    <span class="proj-meta">Member · Delivery org 144 · Java, Angular, PostgreSQL, SAS</span>
   </div>
   <ul>
-    <li>Converted SAS analytics logic to PostgreSQL for Singapore Ministry of Education</li>
+    <li>Converted SAS analytics logic to PostgreSQL for a public-sector education system</li>
   </ul>
 </div>
 </div>
@@ -257,8 +253,8 @@ Mechanics Engineering · 2013 – 2018
 | Language | Level |
 |----------|-------|
 | Vietnamese | Native |
-| English | Reading &amp; Research (Professional) |
-| Japanese | Working (JLPT N5) |
+| English | Professional reading &amp; technical research |
+| Japanese | Basic (JLPT N5) |
 </div>
 
 <div class="cv-section cv-section-sm">
