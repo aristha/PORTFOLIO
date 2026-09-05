@@ -1,9 +1,10 @@
 <script setup>
+import { withBase } from 'vitepress'
 const studies = [
   {
     file: 'ai-assisted-engineering-governance',
     link: '/case-studies/ai-assisted-engineering-governance',
-    result: 'AI implementation → deterministic evidence → 3-round review → human gate',
+    result: 'AI-assisted change → deterministic evidence → independent review → human gate',
     meta: 'Repository-native governance · active reference implementation',
   },
   {
@@ -48,7 +49,7 @@ const studies = [
       <a
         v-for="cs in studies"
         :key="cs.file"
-        :href="cs.link"
+        :href="withBase(cs.link)"
         class="ls-cs-row"
       >
         <span class="ls-perms">-rw-r--r--</span>
