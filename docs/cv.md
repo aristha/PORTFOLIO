@@ -1,6 +1,6 @@
 ---
 title: CV — Ha Van Tam
-description: Curriculum Vitae — Ha Van Tam, Tech Lead & Solution Architect, FPT Software
+description: Curriculum Vitae — Ha Van Tam, Technical Lead, Software Architecture
 ---
 
 <div class="cv-wrap">
