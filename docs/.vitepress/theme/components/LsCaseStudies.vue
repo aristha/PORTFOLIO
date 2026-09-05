@@ -1,34 +1,41 @@
 <script setup>
+import { withBase } from 'vitepress'
 const studies = [
+  {
+    file: 'ai-assisted-engineering-governance',
+    link: '/case-studies/ai-assisted-engineering-governance',
+    result: 'AI-assisted change → deterministic evidence → independent review → human gate',
+    meta: 'Repository-native governance · public architecture summary',
+  },
   {
     file: 'legacy-java-aws-migration',
     link: '/case-studies/legacy-java-aws-migration',
-    result: 'Java EE 6 monolith → AWS ECS Fargate + Aurora PostgreSQL',
-    meta: '800K txn/mo · 15yr codebase · 18-month migration',
+    result: 'Java EE monolith → AWS re-platforming strategy',
+    meta: 'Migration architecture · phased delivery · risk control',
   },
   {
     file: 'enterprise-architecture-redesign',
     link: '/case-studies/enterprise-architecture-redesign',
     result: 'Monolith decomposition → modular architecture',
-    meta: '600K LOC · 8-week → 2-week release cycle',
+    meta: 'Domain boundaries · release independence · incremental modernization',
   },
   {
     file: 'sql-performance-optimization',
     link: '/case-studies/sql-performance-optimization',
     result: 'Query time 30 min → 5 min on 3M-row dataset',
-    meta: '5-table join · index strategy · execution plan analysis',
+    meta: '5-table join · index strategy · execution-plan analysis',
   },
   {
     file: 'multi-technology-integration',
     link: '/case-studies/multi-technology-integration',
-    result: 'Java + Mendix + Pega + ReactJS cross-system integration',
-    meta: 'Heterogeneous enterprise stack · API contract design',
+    result: 'Cross-stack integration and API boundary design',
+    meta: 'Java · React · Python · enterprise integration',
   },
   {
     file: 'technical-bidding',
     link: '/case-studies/technical-bidding',
-    result: 'Solution architecture for competitive enterprise bids',
-    meta: 'Financial · Insurance · Asset Mgmt client proposals',
+    result: 'Structured solution evaluation for enterprise proposals',
+    meta: 'Build-vs-buy · architecture trade-offs · delivery constraints',
   },
 ]
 </script>
@@ -42,7 +49,7 @@ const studies = [
       <a
         v-for="cs in studies"
         :key="cs.file"
-        :href="cs.link"
+        :href="withBase(cs.link)"
         class="ls-cs-row"
       >
         <span class="ls-perms">-rw-r--r--</span>

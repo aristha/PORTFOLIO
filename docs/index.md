@@ -5,12 +5,12 @@
 
 # Ha Van Tam
 
-<p class="home-tagline">Tech Lead &amp; Solution Architect · FPT Software · 8 years<br>Full-stack enterprise delivery for Japanese financial institutions and Korean enterprise IT.</p>
+<p class="home-tagline">Technical Lead · Software Architecture · 8 years<br>Enterprise architecture · AI-assisted engineering · cloud-native delivery · legacy modernization.</p>
 
 <div class="home-actions">
-  <a href="/case-studies" class="ide-btn-primary">View Case Studies</a>
-  <a href="/cv" class="ide-btn-primary">View CV</a>
-  <a href="/about" class="ide-btn-secondary">About &amp; Contact</a>
+  <a href="./case-studies" class="ide-btn-primary">View Case Studies</a>
+  <a href="./cv" class="ide-btn-primary">View CV</a>
+  <a href="./about" class="ide-btn-secondary">About &amp; Contact</a>
 </div>
 
 </div>
@@ -18,6 +18,12 @@
 <WhoAmI />
 
 <StatsJson />
+
+## Current Engineering Focus
+
+I work at the intersection of **technical leadership, architecture, and AI-assisted software delivery**. My current focus is not autonomous code generation by itself, but the engineering controls around it: bounded implementation, deterministic verification, independent review, and human approval.
+
+[Read: AI-Assisted Engineering Governance →](/case-studies/ai-assisted-engineering-governance)
 
 ## Tech Stack
 
@@ -31,10 +37,9 @@
 
 | Result | Context |
 |--------|---------|
+| **AI → evidence → human gate** | Repository-native control protocol with bounded implementation, deterministic verification, and independent review stages |
 | **30 min → 5 min** | SQL query over 3 million records, 5-table join — index redesign + query rewrite |
-| **80% on-schedule** | Project delivery rate across all engagements at FPT Software |
-| **65–206 person teams** | Project Lead: sprint planning, code review gate, technical decisions, client comms |
-| **"Investigate & decide"** | Assigned as technical research lead — analyse complex problems, evaluate options, propose pragmatic solution |
-| **5 client domains** | Securities · Insurance · Asset Management · Enterprise IT · B2B Commerce |
-| **7 certifications** | AWS Cloud Architect · Mendix Advanced Developer · Pega CSA · Full Stack Web Developer |
-
+| **80% on-schedule** | Project delivery rate across enterprise engagements |
+| **65–206 engineer delivery environments** | Leadership roles within large delivery organizations; scope varied by engagement |
+| **"Investigate & decide"** | Technical research role — analyse complex problems, evaluate options, propose pragmatic solutions |
+| **5 enterprise domains** | Securities · Insurance · Asset Management · Enterprise IT · B2B Commerce |

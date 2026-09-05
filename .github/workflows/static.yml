@@ -1,20 +1,17 @@
-# Workflow for building VitePress and deploying to GitHub Pages
-name: Deploy static content to Pages
+# Build VitePress on pull requests and deploy GitHub Pages from main
+name: Build and deploy portfolio
 
 on:
+  pull_request:
+    branches: ["main"]
   push:
     branches: ["main"]
-
   workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   build:
@@ -37,11 +34,6 @@ jobs:
         with:
           version: latest
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
@@ -50,12 +42,26 @@ jobs:
         env:
           GITHUB_ACTIONS: true
 
-      - name: Upload artifact
+      - name: Validate built links
+        run: pnpm run validate:links
+
+      - name: Setup Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
 
   deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    concurrency:
+      group: "github-pages"
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

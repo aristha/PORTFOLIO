@@ -3,7 +3,10 @@
 **Domain:** Database Performance Engineering · Query Optimization · Index Strategy  
 **Stack:** Oracle 12c Release 2 · PostgreSQL 13 (Aurora)  
 **Environment:** Financial services — regulatory reporting and core transaction processing  
-**Improvement:** Regulatory report: 45 min → 2.8 min · Nightly batch: 8 hours → 1.2 hours
+**Measured result:** Critical 5-table join over 3M records: 30 min → 5 min  
+**Illustrative scenario:** Additional reporting and batch timings below are generalized/composite examples
+
+> **Portfolio disclosure:** This enterprise case study is intentionally anonymized and generalized. It may combine patterns from multiple engagements, and some scale, cost, timeline, operational, organizational, or client-specific figures are illustrative or altered to protect confidentiality. Only outcomes explicitly marked **Measured result** should be interpreted as direct measured results.
 
 ---
 

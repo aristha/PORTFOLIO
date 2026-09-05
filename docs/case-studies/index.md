@@ -1,8 +1,24 @@
 # Case Studies
 
-**Enterprise Architecture Decision Records — documented system transformations, performance engineering, and cross-technology integration.**
+**Engineering decisions across AI-assisted delivery, enterprise architecture, modernization, performance, and system integration.**
 
-Each case study follows a consistent structure: business context, existing system analysis, structured option evaluation, final architecture decision, implementation strategy, and production outcome.
+Each case study focuses on the decision process: context, constraints, options, trade-offs, implementation strategy, evidence, and outcome. The goal is not to present architecture as a diagram collection, but to show how technical decisions are made under delivery constraints.
+
+> **Portfolio disclosure:** Enterprise case studies are intentionally anonymized and may use generalized or composite scenarios. Client identities are omitted, and some scale, cost, timeline, operational, and organizational figures are illustrative or altered to protect confidentiality. Only results explicitly marked **Measured result** should be interpreted as direct measured outcomes.
+
+---
+
+## AI-Assisted Engineering
+
+### [AI-Assisted Engineering Governance](./ai-assisted-engineering-governance)
+
+**Domain:** AI-assisted SDLC · Engineering Governance · Developer Productivity  
+**Pattern:** Repository-native control protocol · Human approval gate  
+**Status:** Active engineering experiment · public architecture summary
+
+AI coding agents can implement changes quickly, but trustworthy delivery still requires explicit scope, repeatable verification, independent review, and accountable approval. This case study documents the public architecture of a repository-native control model built around bounded work, deterministic evidence, independent engineering review, readiness evaluation, and human approval.
+
+**Key decisions:** Protocol vs dedicated control-plane platform · deterministic checks vs AI-only confidence · explicit human authority boundary
 
 ---
 
@@ -12,9 +28,9 @@ Each case study follows a consistent structure: business context, existing syste
 
 **Domain:** Cloud Migration · Re-platforming · Database Migration  
 **Stack:** Java EE 6 / JBoss AS 7.1 · Oracle 11g → AWS ECS Fargate · Aurora PostgreSQL  
-**Scale:** 800K monthly transactions · 15-year-old system · 18-month migration
+**Scenario:** Generalized/composite enterprise migration case
 
-A regional insurance company's Java EE 6 monolith on aging on-premise hardware. The infrastructure contract was approaching end-of-life and horizontal scaling was impossible without significant capital investment. Three migration paths were evaluated: lift-and-shift (rehost), containerization (re-platform), and microservices decomposition (re-architect). The selected path, its implementation phasing, and the strangler fig pattern applied are documented in full.
+A regional insurance company's Java EE 6 monolith on aging on-premise hardware. Three migration paths were evaluated: lift-and-shift, containerization, and microservices decomposition.
 
 **Key decisions:** ECS vs EC2 vs EKS · Oracle vs Aurora PostgreSQL · phased migration vs big-bang cutover
 
@@ -24,11 +40,11 @@ A regional insurance company's Java EE 6 monolith on aging on-premise hardware. 
 
 **Domain:** Architecture Redesign · Domain-Driven Design · Modular Decomposition  
 **Stack:** Spring MVC monolith · PostgreSQL → Modular Spring Boot · Event-driven integration  
-**Scale:** 600K LOC · 4 development teams · 8-week release cycle → 2-week cycle
+**Scenario:** Generalized/composite architecture modernization case
 
-A B2B SaaS company's five-year-old Java Spring MVC monolith had grown to a size where four development teams were consistently blocked by deployment conflicts, slow test suites, and inability to scale individual capabilities independently. Full microservices decomposition was evaluated but rejected in favor of a modular monolith-first strategy. The domain decomposition, bounded context identification, and selective service extraction path are fully documented.
+A growing Java Spring MVC monolith had created release conflicts, slow test cycles, and coupling across teams. Full microservices decomposition was evaluated but rejected in favor of a modular-monolith-first strategy.
 
-**Key decisions:** Microservices vs modular monolith · domain decomposition strategy · event-driven integration patterns
+**Key decisions:** Microservices vs modular monolith · bounded-context decomposition · event-driven integration
 
 ---
 
@@ -37,12 +53,12 @@ A B2B SaaS company's five-year-old Java Spring MVC monolith had grown to a size 
 ### [SQL Performance Optimization — Oracle & PostgreSQL](./sql-performance-optimization)
 
 **Domain:** Database Performance · Query Optimization · Index Strategy  
-**Stack:** Oracle 12c · PostgreSQL 13  
-**Improvement:** Regulatory report query: 45 min → 2.8 min · Nightly batch: 8 hours → 1.2 hours
+**Stack:** Oracle · PostgreSQL  
+**Measured result:** Critical 5-table join over 3M records: 30 min → 5 min
 
-A financial services firm's quarterly regulatory reporting system was generating queries that locked critical transactional tables for extended periods. Nightly batch processing was routinely running beyond its window and causing morning operational failures. This case study documents the full diagnostic process — AWR report analysis, execution plan interpretation, wait event identification — and the specific optimization techniques applied at each layer.
+This case study documents the diagnostic and optimization process across execution plans, index strategy, query rewriting, and data-access design.
 
-**Key techniques:** Composite index design · partition pruning · materialized views · query rewriting · EXPLAIN ANALYZE
+**Key techniques:** Composite indexes · execution-plan analysis · query rewriting · partition strategy
 
 ---
 
@@ -51,39 +67,36 @@ A financial services firm's quarterly regulatory reporting system was generating
 ### [Multi-Technology System Integration](./multi-technology-integration)
 
 **Domain:** System Integration · API Design · Authentication Unification  
-**Stack:** React · Vue.js · Java Spring Boot · Python FastAPI · AWS API Gateway  
-**Problem:** Four independently built systems with fragmented authentication and duplicate API logic
+**Stack:** React · Vue.js · Java Spring Boot · Python FastAPI · AWS API Gateway
 
-A retail enterprise had separate development teams deliver a React customer portal, a Vue.js administration panel, a Java Spring Boot core API, and a Python FastAPI ML recommendation service — each with its own authentication mechanism and partial API duplication. The integration redesign consolidated authentication under OAuth 2.0/OIDC, introduced Backend-for-Frontend services per client type, and unified API contracts under OpenAPI 3.x.
+A heterogeneous enterprise environment required integration across multiple technology stacks and independently evolved client applications.
 
-**Key decisions:** GraphQL federation vs BFF pattern · API Gateway routing strategy · Keycloak vs AWS Cognito
+**Key decisions:** GraphQL federation vs BFF · API gateway routing · authentication consolidation
 
 ---
 
 ### [Technical Bidding & Solution Proposal](./technical-bidding)
 
 **Domain:** Solution Architecture · RFP Response · Build vs Buy Evaluation  
-**Stack:** Java microservices · Mendix · Python FastAPI · React  
-**Context:** Government digital transformation — citizen services portal for 2M users
+**Stack:** Java · Mendix · Python · React
 
-A government agency issued an RFP for a citizen services platform: 50+ digitized forms, document management, workflow engine, and reporting. Three competing architecture proposals were evaluated: Mendix (full low-code), custom Java microservices, and a hybrid Python/React stack. The case study documents the evaluation matrix, vendor lock-in risk analysis, total cost of ownership modeling, and the hybrid architecture recommendation submitted.
+This case study focuses on structured architecture evaluation under delivery, cost, lock-in, and organizational constraints.
 
-**Key decisions:** Mendix vs custom Java · monolith vs microservices for government scale · vendor lock-in vs delivery speed
+**Key decisions:** Low-code vs custom build · monolith vs microservices · delivery speed vs long-term flexibility
 
 ---
 
-## Case Study Format
+## Decision Framework
 
-All case studies follow this structure:
+Most case studies use the same reasoning structure:
 
-| Section | Content |
-|---------|---------|
-| **A. Business Context** | Enterprise problem, change drivers, business constraints |
-| **B. Existing System Analysis** | Current architecture, technical limitations, bottlenecks |
-| **C. Solution Evaluation** | Three options with pros, cons, risk, cost, and scalability impact |
-| **D. Final Architecture Decision** | Decision rationale, rejected options, architectural principles applied |
-| **E. System Architecture Design** | Component breakdown, data flow, integration points |
-| **F. Migration / Implementation Strategy** | Phased plan, risk mitigation, rollout strategy |
-| **G. Performance Optimization** | SQL tuning, caching, query optimization (where applicable) |
-| **H. Trade-offs & Engineering Decisions** | Complexity introduced, sacrifices made, long-term implications |
-| **I. Production Outcome** | System improvement, performance gains, business impact |
+| Stage | Question |
+|---|---|
+| **Context** | What business and engineering problem actually needs to be solved? |
+| **Constraints** | What limits the available solution space? |
+| **Options** | What credible alternatives exist? |
+| **Trade-offs** | What does each option improve, cost, or risk? |
+| **Decision** | Why is the selected option the best fit for this context? |
+| **Implementation** | How can the decision be introduced safely and incrementally? |
+| **Evidence** | What deterministic or production evidence supports the result? |
+| **Outcome** | What changed, and what remains intentionally unresolved? |

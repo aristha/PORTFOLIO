@@ -1,12 +1,13 @@
 {
-  "name": "enterprise-engineering-adr",
-  "version": "1.0.0",
+  "name": "engineering-portfolio",
+  "version": "1.1.0",
   "type": "module",
-  "description": "Enterprise Engineering Case Study & Architecture Decision Record System",
+  "description": "Technical leadership, AI-assisted engineering governance, architecture, modernization, and enterprise delivery portfolio.",
   "scripts": {
     "dev": "vitepress serve docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "validate:links": "node scripts/validate-built-links.mjs"
   },
   "devDependencies": {
     "vitepress": "^1.6.3"
