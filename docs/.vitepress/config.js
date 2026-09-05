@@ -12,9 +12,9 @@ export default defineConfig({
 
   head: [
     ['meta', { name: 'author', content: 'Ha Van Tam' }],
-    ['meta', { name: 'keywords', content: 'Technical Lead, Solution Architect, AI-assisted engineering, AI governance, Java, Spring Boot, AWS, Kubernetes, PostgreSQL, Architecture, Legacy Modernization, Engineering Leadership' }],
+    ['meta', { name: 'keywords', content: 'Technical Lead, Software Architecture, AI-assisted engineering, AI governance, Java, Spring Boot, AWS, Kubernetes, PostgreSQL, Architecture, Legacy Modernization, Engineering Leadership' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'Ha Van Tam — Technical Lead & Solution Architect' }],
+    ['meta', { property: 'og:title', content: 'Ha Van Tam — Technical Lead · Software Architecture' }],
     ['meta', { property: 'og:description', content: 'Engineering portfolio covering AI-assisted delivery governance, enterprise architecture, modernization, performance engineering, and technical leadership.' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
@@ -109,7 +109,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Ha Van Tam · Technical Lead · Solution Architect · AI-assisted Engineering'
+      message: 'Ha Van Tam · Technical Lead · Software Architecture · AI-assisted Engineering'
     },
 
     docFooter: {
