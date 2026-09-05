@@ -39,7 +39,7 @@ I work at the intersection of **technical leadership, architecture, and AI-assis
 |--------|---------|
 | **AI → evidence → human gate** | Repository-native control protocol with bounded implementation, deterministic verification, and independent review stages |
 | **30 min → 5 min** | SQL query over 3 million records, 5-table join — index redesign + query rewrite |
-| **80% on-schedule** | Project delivery rate across enterprise engagements |
+| **Delivery consistency** | Most tracked enterprise engagements delivered on schedule; scope varied by project |
 | **65–206 engineer delivery environments** | Leadership roles within large delivery organizations; scope varied by engagement |
 | **"Investigate & decide"** | Technical research role — analyse complex problems, evaluate options, propose pragmatic solutions |
 | **5 enterprise domains** | Securities · Insurance · Asset Management · Enterprise IT · B2B Commerce |
