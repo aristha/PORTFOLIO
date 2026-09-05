@@ -28,7 +28,7 @@ description: Curriculum Vitae — Ha Van Tam, Technical Lead, Software Architect
       <span class="badge badge-gold">★ FPT Software Platinum 2021</span>
       <span class="badge badge-blue">◆ FStar 2025</span>
       <span class="badge badge-green">✓ 8 Years Experience</span>
-      <span class="badge badge-gray">80% On-Schedule Delivery</span>
+      <span class="badge badge-gray">Enterprise Delivery Leadership</span>
     </div>
   </div>
 </div>
@@ -207,7 +207,7 @@ Delivered across **five enterprise domains** spanning Japanese financial service
     <span class="proj-meta">Member · Delivery org 40–46 · Java, Oracle, Angular</span>
   </div>
   <ul>
-    <li>Multi-year AMOne system delivery: new features, Oracle optimization, Flex → Angular migration</li>
+    <li>Multi-year asset-management system delivery: new features, Oracle optimization, Flex → Angular migration</li>
   </ul>
 </div>
 
