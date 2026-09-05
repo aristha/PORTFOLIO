@@ -68,7 +68,7 @@ const filePath = computed(() => {
     <a
       v-for="item in nav"
       :key="item.link"
-      :href="item.link"
+      :href="withBase(item.link)"
       class="ide-mobile-cmd"
       :class="{ active: isActive(item.link) }"
     >
