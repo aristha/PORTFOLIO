@@ -2,7 +2,9 @@
 
 **Engineering decisions across AI-assisted delivery, enterprise architecture, modernization, performance, and system integration.**
 
-Each case study focuses on the decision process: context, constraints, options, trade-offs, implementation strategy, evidence, and outcome. The goal is not to present architecture as a diagram collection, but to show how technical decisions are made under real delivery constraints.
+Each case study focuses on the decision process: context, constraints, options, trade-offs, implementation strategy, evidence, and outcome. The goal is not to present architecture as a diagram collection, but to show how technical decisions are made under delivery constraints.
+
+> **Portfolio disclosure:** Enterprise case studies are intentionally anonymized and may use generalized or composite scenarios. Client identities are omitted, and some scale, cost, timeline, operational, and organizational figures are illustrative or altered to protect confidentiality. Only results explicitly marked **Measured result** should be interpreted as direct measured outcomes.
 
 ---
 
@@ -12,11 +14,11 @@ Each case study focuses on the decision process: context, constraints, options, 
 
 **Domain:** AI-assisted SDLC · Engineering Governance · Developer Productivity  
 **Pattern:** Repository-native control protocol · Human approval gate  
-**Status:** Active reference implementation
+**Status:** Active engineering experiment · public architecture summary
 
-AI coding agents can implement changes quickly, but trustworthy delivery still requires explicit scope, repeatable verification, independent review, and accountable approval. This case study documents a lightweight control protocol built around GitHub Issues, task contracts, pull requests, deterministic checks, three review rounds, gate evaluation, and human merge authority.
+AI coding agents can implement changes quickly, but trustworthy delivery still requires explicit scope, repeatable verification, independent review, and accountable approval. This case study documents the public architecture of a repository-native control model built around bounded work, deterministic evidence, independent engineering review, readiness evaluation, and human approval.
 
-**Key decisions:** Protocol vs dedicated control-plane platform · deterministic checks vs AI-only verification · single review vs three independent review purposes
+**Key decisions:** Protocol vs dedicated control-plane platform · deterministic checks vs AI-only confidence · explicit human authority boundary
 
 ---
 
@@ -26,7 +28,7 @@ AI coding agents can implement changes quickly, but trustworthy delivery still r
 
 **Domain:** Cloud Migration · Re-platforming · Database Migration  
 **Stack:** Java EE 6 / JBoss AS 7.1 · Oracle 11g → AWS ECS Fargate · Aurora PostgreSQL  
-**Scale:** 800K monthly transactions · 15-year-old system · 18-month migration
+**Scenario:** Generalized/composite enterprise migration case
 
 A regional insurance company's Java EE 6 monolith on aging on-premise hardware. Three migration paths were evaluated: lift-and-shift, containerization, and microservices decomposition.
 
@@ -38,7 +40,7 @@ A regional insurance company's Java EE 6 monolith on aging on-premise hardware. 
 
 **Domain:** Architecture Redesign · Domain-Driven Design · Modular Decomposition  
 **Stack:** Spring MVC monolith · PostgreSQL → Modular Spring Boot · Event-driven integration  
-**Scale:** 600K LOC · 4 development teams · 8-week release cycle → 2-week cycle
+**Scenario:** Generalized/composite architecture modernization case
 
 A growing Java Spring MVC monolith had created release conflicts, slow test cycles, and coupling across teams. Full microservices decomposition was evaluated but rejected in favor of a modular-monolith-first strategy.
 
