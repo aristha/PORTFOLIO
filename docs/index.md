@@ -5,12 +5,12 @@
 
 # Ha Van Tam
 
-<p class="home-tagline">Technical Lead &amp; Solution Architect · 8 years<br>Enterprise architecture · AI-assisted engineering · cloud-native delivery · legacy modernization.</p>
+<p class="home-tagline">Technical Lead · Software Architecture · 8 years<br>Enterprise architecture · AI-assisted engineering · cloud-native delivery · legacy modernization.</p>
 
 <div class="home-actions">
-  <a href="/case-studies" class="ide-btn-primary">View Case Studies</a>
-  <a href="/cv" class="ide-btn-primary">View CV</a>
-  <a href="/about" class="ide-btn-secondary">About &amp; Contact</a>
+  <a href="./case-studies" class="ide-btn-primary">View Case Studies</a>
+  <a href="./cv" class="ide-btn-primary">View CV</a>
+  <a href="./about" class="ide-btn-secondary">About &amp; Contact</a>
 </div>
 
 </div>
@@ -37,9 +37,9 @@ I work at the intersection of **technical leadership, architecture, and AI-assis
 
 | Result | Context |
 |--------|---------|
-| **AI → evidence → human gate** | Repository-native control protocol with bounded implementation, deterministic verification, and three independent review rounds |
+| **AI → evidence → human gate** | Repository-native control protocol with bounded implementation, deterministic verification, and independent review stages |
 | **30 min → 5 min** | SQL query over 3 million records, 5-table join — index redesign + query rewrite |
 | **80% on-schedule** | Project delivery rate across enterprise engagements |
-| **65–206 person teams** | Technical leadership across planning, review gates, technical decisions, and delivery coordination |
+| **65–206 engineer delivery environments** | Leadership roles within large delivery organizations; scope varied by engagement |
 | **"Investigate & decide"** | Technical research role — analyse complex problems, evaluate options, propose pragmatic solutions |
 | **5 enterprise domains** | Securities · Insurance · Asset Management · Enterprise IT · B2B Commerce |
