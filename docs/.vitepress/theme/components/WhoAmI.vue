@@ -5,12 +5,12 @@
     </div>
     <div class="term-output whoami-output">
       <div class="wo-line"><span class="wo-key">name</span><span class="wo-colon">:</span>           <span class="wo-val">Ha Van Tam</span></div>
-      <div class="wo-line"><span class="wo-key">role</span><span class="wo-colon">:</span>           <span class="wo-val">Tech Lead &amp; Solution Architect</span></div>
-      <div class="wo-line"><span class="wo-key">company</span><span class="wo-colon">:</span>        <span class="wo-val">FPT Software</span></div>
+      <div class="wo-line"><span class="wo-key">role</span><span class="wo-colon">:</span>           <span class="wo-val">Technical Lead · Solution Architect</span></div>
       <div class="wo-line"><span class="wo-key">experience</span><span class="wo-colon">:</span>     <span class="wo-val">8 years</span></div>
-      <div class="wo-line"><span class="wo-key">stack</span><span class="wo-colon">:</span>          <span class="wo-val">Java · Spring Boot · ReactJS · Angular · PostgreSQL · AWS</span></div>
-      <div class="wo-line"><span class="wo-key">recognition</span><span class="wo-colon">:</span>    <span class="wo-val-green">Platinum Award 2021 · FStar Award 2025</span></div>
-      <div class="wo-line"><span class="wo-key">contact</span><span class="wo-colon">:</span>        <span class="wo-val-blue"><a href="mailto:bttsnam@gmail.com">bttsnam@gmail.com</a></span></div>
+      <div class="wo-line"><span class="wo-key">focus</span><span class="wo-colon">:</span>          <span class="wo-val">AI-assisted delivery · Architecture · Legacy modernization</span></div>
+      <div class="wo-line"><span class="wo-key">stack</span><span class="wo-colon">:</span>          <span class="wo-val">Java · Spring Boot · React · TypeScript · PostgreSQL · AWS · Kubernetes</span></div>
+      <div class="wo-line"><span class="wo-key">principle</span><span class="wo-colon">:</span>      <span class="wo-val-green">AI accelerates · Evidence verifies · Humans approve</span></div>
+      <div class="wo-line"><span class="wo-key">github</span><span class="wo-colon">:</span>         <span class="wo-val-blue"><a href="https://github.com/aristha">github.com/aristha</a></span></div>
     </div>
   </div>
 </template>
