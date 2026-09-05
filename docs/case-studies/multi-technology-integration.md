@@ -5,6 +5,8 @@
 **Problem:** Four independently built systems with fragmented authentication, duplicated API logic, and no unified contract  
 **Pattern:** Backend-for-Frontend (BFF) · OAuth 2.0 / OIDC · OpenAPI 3.x contract-first
 
+> **Portfolio disclosure:** This enterprise case study is intentionally anonymized and generalized. It may combine patterns from multiple engagements, and some scale, cost, timeline, operational, organizational, or client-specific figures are illustrative or altered to protect confidentiality. Only outcomes explicitly marked **Measured result** should be interpreted as direct measured results.
+
 ---
 
 ## A. Business Context
