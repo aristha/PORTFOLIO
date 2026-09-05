@@ -1,6 +1,6 @@
 <script setup>
 import { computed, ref } from 'vue'
-import { useRoute } from 'vitepress'
+import { useRoute, withBase } from 'vitepress'
 
 const route = useRoute()
 const mobileOpen = ref(false)
@@ -42,7 +42,7 @@ const filePath = computed(() => {
       <a
         v-for="item in nav"
         :key="item.link"
-        :href="item.link"
+        :href="withBase(item.link)"
         class="ide-nav-cmd"
         :class="{ active: isActive(item.link) }"
       >
