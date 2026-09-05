@@ -46,6 +46,9 @@ jobs:
         env:
           GITHUB_ACTIONS: true
 
+      - name: Validate built links
+        run: pnpm run validate:links
+
       - name: Setup Pages
         if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
