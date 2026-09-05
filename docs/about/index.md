@@ -98,16 +98,16 @@ As Project Lead, accountable for the full delivery cycle within the engineering 
 
 **Project Lead & Sub Leader — Large-Scale Delivery**
 
-80% of projects delivered on schedule. Teams of 52 to 206 engineers.
+Leadership roles were held within delivery organizations ranging from 52 to 206 engineers; direct ownership varied by engagement.
 
 | Project | Role | Team | Stack | Domain |
 |---------|------|------|-------|--------|
-| Security Platform Migration | **Project Lead** | 106 | Java, ReactJS, PostgreSQL | Security platform consolidation (LGCNS) |
-| JS Coverage Tooling | **Project Lead** | 105 | JS/TS, NodeJS, Chrome Extension | Browser-based JS coverage tool (LGCNS) |
-| Market Surveillance & Compliance | **Project Lead** | 65 | Java, Oracle | Securities compliance system (DIR) |
-| Enterprise System Development | **Sub Leader** | 118 | Java, ReactJS | New feature development (LGCNS) |
-| Security System Development | **Sub Leader** | 52 | Java | Security system new features (LGCNS) |
-| Securities Transaction Monitoring | **Team Lead** | 206 | Angular, Spring Boot, AWS | Securities monitoring (DIR) |
+| Security Platform Migration | **Project Lead** | 106 | Java, ReactJS, PostgreSQL | Security platform consolidation |
+| JS Coverage Tooling | **Project Lead** | 105 | JS/TS, NodeJS, Chrome Extension | Browser-based JS coverage tool |
+| Market Surveillance & Compliance | **Project Lead** | 65 | Java, Oracle | Securities compliance system |
+| Enterprise System Development | **Sub Leader** | 118 | Java, ReactJS | Enterprise feature development |
+| Security System Development | **Sub Leader** | 52 | Java | Security-system feature development |
+| Securities Transaction Monitoring | **Team Lead** | 206 | Angular, Spring Boot, AWS | Securities monitoring |
 
 **Client Domain Coverage**
 
