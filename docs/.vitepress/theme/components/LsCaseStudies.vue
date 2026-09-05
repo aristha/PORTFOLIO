@@ -5,7 +5,7 @@ const studies = [
     file: 'ai-assisted-engineering-governance',
     link: '/case-studies/ai-assisted-engineering-governance',
     result: 'AI-assisted change → deterministic evidence → independent review → human gate',
-    meta: 'Repository-native governance · active reference implementation',
+    meta: 'Repository-native governance · public architecture summary',
   },
   {
     file: 'legacy-java-aws-migration',
