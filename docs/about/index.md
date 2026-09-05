@@ -6,7 +6,7 @@
 
 **Recognition:** FPT Software Platinum 2021 · FStar FPT Software 2025 · Best Performance Award (individual)
 
-**Contact:** [github.com/aristha](https://github.com/aristha) · [bttsnam@gmail.com](mailto:bttsnam@gmail.com) · [📄 View CV](/cv)
+**Contact:** [github.com/aristha](https://github.com/aristha) · [📄 View CV](/cv)
 
 ---
 
@@ -18,7 +18,7 @@ I work as a **Technical Lead and Project Lead** in enterprise software delivery 
 
 **Second differentiator: technical investigation and solution judgment.** When facing complex, ambiguous technical problems — legacy system behaviour, cross-stack compatibility issues, performance bottlenecks without obvious cause — the instinct is to research deeply, evaluate multiple options systematically, and propose the most pragmatic solution for the given constraints. This is the role consistently assigned by PM/BrSE across projects: not just implement, but investigate and decide.
 
-Over 8 years at FPT Software I have delivered across five client domains: securities trading systems (Daiwa Securities / DIR), life insurance contract processing, asset management systems, enterprise IT platforms (LG CNS), and Japanese B2B commerce. Project Lead on teams of 65–118 engineers, Sub Leader on teams up to 206. 80% of projects delivered on schedule.
+Over 8 years at FPT Software I have delivered across five enterprise domains: securities, life insurance, asset management, enterprise IT, and B2B commerce. I have held Project Lead, Team Lead, and Sub Leader responsibilities within delivery organizations ranging from 52 to 206 engineers; direct ownership varied by engagement. Most tracked engagements were delivered on schedule.
 
 **Recognition:** FPT Software Platinum 2021 · FStar 2025 · Top Performer (multiple cycles)
 
@@ -92,31 +92,31 @@ As Project Lead, accountable for the full delivery cycle within the engineering 
 - **Task assignment & progress tracking** — daily monitoring across all team members
 - **Full code review** — all code reviewed before merge; quality gate on architecture, security, and performance
 - **Technical solution authority** — investigate problem, evaluate options, decide implementation approach
-- **Client communication** — primary engineering contact for Japanese and Korean clients; status reporting, issue escalation, requirement clarification
+- **Technical stakeholder communication** — solution clarification, issue escalation, status reporting, and engineering coordination with client-side stakeholders
 - **Effort estimation & reporting** — estimate, track actuals, report to PM / BrSE
 - **Mentoring** — technical guidance and upskilling for junior and mid-level members
 
 **Project Lead & Sub Leader — Large-Scale Delivery**
 
-80% of projects delivered on schedule. Teams of 52 to 206 engineers.
+Leadership roles were held within delivery organizations ranging from 52 to 206 engineers; direct ownership varied by engagement.
 
 | Project | Role | Team | Stack | Domain |
 |---------|------|------|-------|--------|
-| Security Platform Migration | **Project Lead** | 106 | Java, ReactJS, PostgreSQL | Security platform consolidation (LGCNS) |
-| JS Coverage Tooling | **Project Lead** | 105 | JS/TS, NodeJS, Chrome Extension | Browser-based JS coverage tool (LGCNS) |
-| Market Surveillance & Compliance | **Project Lead** | 65 | Java, Oracle | Securities compliance system (DIR) |
-| Enterprise System Development | **Sub Leader** | 118 | Java, ReactJS | New feature development (LGCNS) |
-| Security System Development | **Sub Leader** | 52 | Java | Security system new features (LGCNS) |
-| Securities Transaction Monitoring | **Team Lead** | 206 | Angular, Spring Boot, AWS | Securities monitoring (DIR) |
+| Security Platform Migration | **Project Lead** | 106 | Java, ReactJS, PostgreSQL | Security platform consolidation |
+| JS Coverage Tooling | **Project Lead** | 105 | JS/TS, NodeJS, Chrome Extension | Browser-based JS coverage tool |
+| Market Surveillance & Compliance | **Project Lead** | 65 | Java, Oracle | Securities compliance system |
+| Enterprise System Development | **Sub Leader** | 118 | Java, ReactJS | Enterprise feature development |
+| Security System Development | **Sub Leader** | 52 | Java | Security-system feature development |
+| Securities Transaction Monitoring | **Team Lead** | 206 | Angular, Spring Boot, AWS | Securities monitoring |
 
 **Client Domain Coverage**
 
 Delivery experience across five enterprise domains:
-- **Securities / Equities** — transaction monitoring, compliance, FAIMS systems (Daiwa Securities / DIR)
-- **Life Insurance** — contract management system migration to AWS (Japanese insurer)
-- **Asset Management** — AMOne system, multi-year maintenance and new feature delivery
-- **Enterprise IT** — security platforms, coverage tooling, framework migration (LG CNS, Korea)
-- **B2B Commerce** — warehouse search webapp (Mendix, Japanese market)
+- **Securities / Equities** — transaction monitoring and compliance systems for Japanese financial institutions
+- **Life Insurance** — contract-management modernization and cloud migration
+- **Asset Management** — multi-year maintenance, modernization, and new-feature delivery
+- **Enterprise IT** — security platforms, developer tooling, and framework migration in Korean enterprise environments
+- **B2B Commerce** — enterprise web application delivery for the Japanese market
 
 ---
 
@@ -130,7 +130,7 @@ Delivery experience across five enterprise domains:
 | **Great Job** — project delivery recognition | Multiple projects | FPT Software |
 | **Amazing Spirit** — individual contribution award | Multiple cycles | FPT Software |
 
-Long-term client relationships sustained across multiple years — including 6+ years continuous delivery to Japanese financial institution clients (DIR / Daiwa group) and multi-year engagement with Korean enterprise IT (LGCNS). An indicator of delivery quality and trusted technical advisory sustained across project cycles.
+Long-term enterprise delivery relationships were sustained across multiple project cycles in Japanese financial-services and Korean enterprise-IT environments, reflecting continuity of delivery and technical trust.
 
 ---
 
